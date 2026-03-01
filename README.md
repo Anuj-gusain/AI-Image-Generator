@@ -33,6 +33,6 @@ Users can generate stunning images using Google's Gemini 2.5 Flash Image model w
 - JWT Authentication
 - Google Gemini API
 
---- echo "redeploy again" >>README.md
+--- 
 
 ## 📂 Project Structure
