@@ -20,7 +20,7 @@ const Generate = () => {
     try {
       setIsGenerating(true);
 
-      const res = await fetch("https://ai-image-generator-production-6163.up.railway.app/api/images/generate", {
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/images/generate`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
